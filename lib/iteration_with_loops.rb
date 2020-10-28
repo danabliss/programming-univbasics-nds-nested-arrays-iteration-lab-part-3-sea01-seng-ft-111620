@@ -5,7 +5,7 @@ def join_nested_strings(src)
   src.flatten.each {|item|
   if item.class == String
     string << "#{item} "
-    binding.pry
+    
   end
   }
   puts string
